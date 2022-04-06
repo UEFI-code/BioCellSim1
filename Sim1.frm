@@ -195,13 +195,13 @@ ProgressBar1.Value = ProgressBar1.Value + 1
 If ProgressBar1.Value > 99 Then
 Randomize
 If myType = 0 Then
-newfilename = "B" & Int(Rnd * 65536) & ".exe"
+newfilename = "B-" & Int(Rnd * 65536) & ".exe"
 Else
 If myType = 1 Then
-newfilename = "C" & Int(Rnd * 65536) & ".exe"
+newfilename = "C-" & Int(Rnd * 65536) & ".exe"
 Else
 If myType = 2 Then
-newfilename = "D" & Int(Rnd * 65536) & ".exe"
+newfilename = "D-" & Int(Rnd * 65536) & ".exe"
 End If
 End If
 End If
