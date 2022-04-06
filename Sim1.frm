@@ -171,9 +171,10 @@ End If
 If c = "D" Then
 Me.BackColor = RGB(128, 255, 168)
 myType = 3
-myspeedval = 200
-myk = 7
+myspeedval = 750
+myk = 5
 Slider1.Value = 0
+Timer2.Enabled = True
 End If
 Label1.Caption = "Type: " + Str(myType)
 End Sub
