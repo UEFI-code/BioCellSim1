@@ -26,5 +26,5 @@ Edit the code of Progenitor cells and try for eternal life.
 
 # Credits
 
-UEFI, Cookie.
+SuperHacker UEFI (Setaku)
 
